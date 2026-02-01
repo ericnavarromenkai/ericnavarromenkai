@@ -206,7 +206,7 @@
 
     // --- Contact Form ---
     // IMPORTANT: Replace this URL with your actual Google Apps Script Web App URL
-    const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyRQ2OScE885lV5GUVwfFdl-d1lXiO4DtVGZSmxPL9kcl1SPbsUKKqwH_-ziTVjKhw0tA/exec';
+    const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwTFyEXt0WUoEBScfqy5DlS3NGw25mtwXyDZgD7vVLp7T_kbp06gmplE_ErDMDotmeAcA/exec';
 
     const form = document.getElementById('contact-form');
     const submitBtn = document.getElementById('form-submit');
