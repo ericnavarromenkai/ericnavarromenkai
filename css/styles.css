@@ -1,0 +1,42 @@
+/* MenkAi - Custom styles (complementing Tailwind CSS) */
+
+/* Smooth scroll offset for fixed navbar */
+html {
+    scroll-padding-top: 72px;
+}
+
+/* Select option styling (Tailwind can't style <option>) */
+select option {
+    background: #111118;
+    color: #e4e4ed;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0a0a0f;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1e1e2e;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #2a2a3e;
+}
+
+/* Animate on scroll - initial state */
+[data-animate] {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+[data-animate].visible {
+    opacity: 1;
+    transform: translateY(0);
+}
